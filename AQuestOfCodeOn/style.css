@@ -1,0 +1,113 @@
+*{
+  cursor:url("components/Mickey\ Mouse\ Hand\ OK--cursor--SweezyCursors--roblox.png"),auto;
+}
+body {
+    font-family: 'VT323', monospace;
+    background-color: #0d0c1d;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.4;
+  }
+  
+  .game-container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .screen {
+    width: 100%;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .pixel-corners {
+    border: 4px solid #6b5b95;
+    padding: 30px;
+    background-color: #1a1a2e;
+    position: relative;
+  }
+  
+  h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #f8d64e;
+    font-size: 1.8rem;
+    margin: 0 0 25px 0;
+    text-shadow: 3px 3px 0 #6b5b95;
+  }
+  
+  input {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    margin: 15px 0;
+    width: 200px;
+    background: #2a2a3c;
+    border: 3px solid #6b5b95;
+    color: #f8d64e;
+    text-align: center;
+  }
+  
+  .pixel-button {
+    font-family: 'Press Start 2P', cursive;
+    background: #6b5b95;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pixel-button:hover {
+    background: #8a75b8;
+    transform: translateY(-2px);
+  }
+  
+  .pixel-button:active {
+    transform: translateY(1px);
+  }
+  
+  .game-ui {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .pixel-border {
+    border: 3px solid #6b5b95;
+    padding: 15px;
+    background-color: #1a1a2e;
+  }
+  
+  .story-box {
+    min-height: 150px;
+    font-size: 1.3rem;
+  }
+  
+  .choices-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f8d64e;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    cursor: url("components/Mickey\ Mouse\ Hand\ Rock\ On--pointer--SweezyCursors--roblox.png"),auto;
+  }
+  button{
+    cursor: url("components/Mickey\ Mouse\ Hand\ Rock\ On--pointer--SweezyCursors--roblox.png"),auto;
+  }

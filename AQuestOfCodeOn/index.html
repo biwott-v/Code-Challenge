@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quest of Codeon</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-container">
+    <div id="start-screen" class="screen">
+      <div class="pixel-corners">
+        <h1>⚔️ The Quest of Codeon 🏰</h1>
+        <p>Enter your hero name:</p>
+        <input type="text" id="name-input5" placeholder="Your name..." maxlength="12" value="Guest">
+        <a href="game.html"><button id="start-button" class="pixel-button">BEGIN QUEST</button></a>
+      </div>
+    </div>
+
+    <div id="game-screen" class="screen" style="display: none;">
+      <div class="game-ui">
+        <div id="status-bar" class="pixel-border">
+          <p id="status">Ready for adventure!</p>
+          <div class="stats">
+            <span>SCORE: <span id="score">0</span></span>
+            <span>LIVES: <span id="lives">❤️❤️❤️</span></span>
+          </div>
+        </div>
+
+        <div id="story" class="story-box pixel-border"></div>
+        <div id="choices" class="choices-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

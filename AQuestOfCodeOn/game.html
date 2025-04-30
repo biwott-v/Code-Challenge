@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Quest of Codeon</title>
+  <link rel="stylesheet" href="game.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-container">
+    <div class="game-header">
+      <div class="timer-box" id="timer">00:00</div>
+      <div class="timer-box" id="points">POINTS</div>
+      <div class="hearts">
+        <span class="heart" id="lifeone">♥</span>
+        <span class="heart" id="lifetwo">♥</span>
+        <span class="heart" id="lifethree">♥</span>
+      </div>
+    </div>
+    <img src="https://placehold.co/600x300/1a1a2e/e6e6e6?text=Quest+of+Codeon" alt="Game scene" id="game-image">
+    <div id="gamedata" class="game-content">
+      <p id="welcome"></p>
+      <!--<button id="start">START</button>-->
+      <button class="choice">A</button>
+      <button class="choice">B</button>
+      <button class="choice">C</button>
+      <button class="choice">D</button>
+      <button id="next">NEXT</button>
+    </div>
+  </div>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
